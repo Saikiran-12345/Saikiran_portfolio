@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+        #contact{
+           
+           align-items: first baseline;
+           font-family: Arial, Helvetica, sans-serif;
+           
+           
+        }
+        body{
+            text-align: center;
+            background-color:blanchedalmond;
+
+        }
+        h3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color:brown
+        
+        }
+        h1{
+            background-color:burlywood;
+            color:red
+        }
+        p{
+           margin-top:10px;
+        }
+        form label{
+            margin-top: 10px;
+     
+            
+        }
+        .hero{
+       display: flex;
+       background-color: cyan;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 30px;
+  color:black;
+}
+nav ul li a:hover{
+  color:white;
+  background-color:black;
+  transition: background-color 0.5s ease-in-out;
+
+
+}
+.logo{
+
+  height: 80px;
+  width:auto;
+  cursor: pointer;
+
+}
+nav{
+  display: flex;
+  width: 84%;
+  margin:auto;
+  padding:20px 0;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 30px;
+  color:black;
+}
+button{
+    background-color: red;
+    margin-top: 15px;
+    border-radius: 20px;
+    width:100px;
+    height:40px;
+}
+input,textarea{
+    margin-left: 10px;
+    margin-top:10px;
+}
+textarea{
+    margin-left: 0px;;
+}
+
+}
+    </style>
+</head>
+<body>
+    <div class="hero">
+    <nav>
+      <img class="logo" src="BEC.JPG">
+
+    <ul class="item">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contacts.html">Contact</a></li>
+    </ul>
+    </nav>
+  </div>
+    <section id="contact">
+    <h1>Contact Me</h1>
+
+    <h3>Personal Details</h3>
+    <p><strong>Name:</strong>Kuniti Saikiran</p>
+    <p><strong>Email:</strong> <a href="mailto:kunitisaikiran@gmail.com">kunitisaikiran@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 7386357220</p>
+    <p><strong>Location:</strong> vishakapatnam, india</p>
+
+    <h3>Social Profiles</h3>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-kiran-kuniti-aa978a343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Saikiran-linkedin</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Saikiran-12345">github.com/saikiran</a></p>
+    <p><strong>Portfolio:</strong> <a href="https://yourportfolio.com">yourportfolio.com</a></p>
+
+    <h3>Message Me Directly</h3>
+    <form action="mailto:kunitisaikiran@gmail.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder ="Enter name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter mail" id="email" name="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter message" name="message" rows="5" required></textarea><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+</body>
+</html>
